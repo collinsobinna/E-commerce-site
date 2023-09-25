@@ -27,7 +27,7 @@ const NavBar = ({ cartItems }) => {
           onClick={handleClick}
         >
           <li>
-            <Link to="/" className="mainlink">
+            <Link to="/E-commerce-site" className="mainlink">
               Home
             </Link>
           </li>

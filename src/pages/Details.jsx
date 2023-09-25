@@ -45,7 +45,7 @@ const Details = () => {
     <section className="details-container">
       <div className="about-nav">
         <h2>
-          <Link to="/">
+          <Link to="/E-commerce-site">
             Home / <Link to="/products">Products</Link>
             <span> / {selectedItem.name}</span>
           </Link>

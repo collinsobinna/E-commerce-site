@@ -60,7 +60,7 @@ const Cart = ({ cartItems, setCartItems }) => {
     <section className="cart-container">
       <div className="about-nav">
         <h2>
-          <Link to="/">
+          <Link to="/E-commerce-site">
             Home <span>/ About</span>
           </Link>
         </h2>

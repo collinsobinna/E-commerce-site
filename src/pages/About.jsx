@@ -7,7 +7,7 @@ const About = () => {
     <section className="about-container">
       <div className="about-nav">
         <h2>
-          <Link to="/">
+          <Link to="/E-commerce-site">
             Home <span>/ About</span>
           </Link>
         </h2>

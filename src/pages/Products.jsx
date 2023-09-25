@@ -8,7 +8,7 @@ const Products = () => {
     <section className="mainProduct-container">
       <div className="about-nav">
         <h2>
-          <Link to="/">
+          <Link to="/E-commerce-site">
             Home <span>/ Products</span>
           </Link>
         </h2>
