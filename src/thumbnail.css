@@ -1,0 +1,41 @@
+.thumbnail-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.main-image img {
+  padding-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px; /* Adjust the height as needed */
+}
+
+.thumbnail-gallery {
+  margin-top: 20px; /* Adjust the spacing between the main image and thumbnails */
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the spacing between thumbnail images */
+  overflow: auto;
+}
+
+.thumbnail {
+  width: 80%; /* Adjust the thumbnail size as needed */
+  height: 80px;
+  cursor: pointer;
+  opacity: 0.7; /* Adjust the opacity for non-selected thumbnails */
+  transition: opacity 0.3s ease;
+
+  /* Add border or other styling as desired */
+}
+
+.thumbnail:hover {
+  opacity: 1; /* Increase opacity on hover */
+}
+
+.selected {
+  opacity: 1; /* Make the selected thumbnail fully visible */
+}
